@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciel>
+    <constellation id="1" saisonObservation="printemps">
+        <nom>Lion</nom>
+        <image>lion.gif</image>
+        <lesetoiles>
+            <etoile masse="2.3" rayon="3.6"  > 
+                <appellation>Denebola </appellation>
+                <luminosite>60</luminosite>
+            </etoile>
+            <etoile masse="2.2" rayon="2"  > 
+                <appellation>Zosma </appellation>
+                <luminosite>23</luminosite>
+            </etoile>
+            <etoile masse="2.9" rayon="4.3"  > 
+                <appellation>Chertan </appellation>
+                <luminosite>120</luminosite>
+            </etoile>
+            <etoile masse="3.5" rayon="3.15"> 
+                <appellation>Regulus </appellation>
+                <luminosite>150</luminosite>
+            </etoile>
+        </lesetoiles>
+    </constellation>
+    <constellation id="2" saisonObservation="hiver"  >
+        <nom>Gemeaux</nom>
+        <image>gemeaux.gif</image>
+        <lesetoiles>
+            <etoile masse="1.86" rayon="8.8"  > 
+                <appellation>Pollux </appellation>
+                <luminosite>32</luminosite>
+            </etoile>
+            <etoile masse="2.15" rayon="2.3"  > 
+                <appellation>Castor </appellation>
+                <luminosite>30</luminosite>
+            </etoile>
+            <etoile masse="2.8" rayon="4.4"  > 
+                <appellation>Alhena </appellation>
+                <luminosite>160</luminosite>
+            </etoile>
+            <etoile masse="2.8" rayon="4.4"  > 
+                <appellation>Mebsuta </appellation>
+                <luminosite>160</luminosite>
+            </etoile>
+        </lesetoiles>
+    </constellation>
+    <constellation id="3" saisonObservation="hiver">
+        <nom>Cassiopee</nom>
+        <image>cassiopee.jpg</image>
+        <lesetoiles>
+            <etoile masse="18" rayon="43">
+                <appellation>Alpha Cassiopeiae </appellation>
+                <luminosite>55000</luminosite>
+            </etoile>
+            <etoile masse="30" rayon="16">
+                <appellation>Eta Cassiopeiae </appellation>
+                <luminosite>18700</luminosite>
+            </etoile>
+            <etoile masse="12" rayon="37">
+                <appellation>Xi Cassiopeiae </appellation>
+                <luminosite>22300</luminosite>
+            </etoile>
+            <etoile masse="16" rayon="11">
+                <appellation>Mu Cassiopeiae </appellation>
+                <luminosite>6700</luminosite>
+            </etoile>
+        </lesetoiles>
+    </constellation>
+    <constellation id="4" saisonObservation="hiver">
+        <nom>Grande Ourse</nom>
+        <image>grande-ourse.jpg</image>
+        <lesetoiles>
+            <etoile masse="3" rayon="3.7">
+                <appellation>Alioth </appellation>
+                <luminosite>108</luminosite>
+            </etoile>
+            <etoile masse="2.7" rayon="3">
+                <appellation>Phecda </appellation>
+                <luminosite>72</luminosite>
+            </etoile>
+            <etoile masse="3" rayon="2">
+                <appellation>Merah </appellation>
+                <luminosite>69</luminosite>
+            </etoile>
+            <etoile masse="4" rayon="16">
+                <appellation>Dubhe </appellation>
+                <luminosite>300</luminosite>
+            </etoile>
+        </lesetoiles>
+    </constellation>
+    <constellation id="5" saisonObservation="hiver">
+        <nom>Orion</nom>
+        <image>orion.png</image>
+        <lesetoiles>
+            <etoile masse="21.3" rayon="78.9">
+                <appellation>Rigel </appellation>
+                <luminosite>40000</luminosite>
+            </etoile>
+            <etoile masse="20" rayon="50">
+                <appellation>Mintaka </appellation>
+                <luminosite>30000</luminosite>
+            </etoile>
+            <etoile masse="15" rayon="1200">
+                <appellation>Betelgeuse </appellation>
+                <luminosite>63000</luminosite>
+            </etoile>
+            <etoile masse="8" rayon="5.7">
+                <appellation>Bellatrix </appellation>
+                <luminosite>4000</luminosite>
+            </etoile>
+        </lesetoiles>
+    </constellation>
+    <constellation id="6" saisonObservation="hiver">
+        <nom>Scorpion</nom>
+        <image>scorpion.jpg</image>
+        <lesetoiles>
+            <etoile masse="12" rayon="800">
+                <appellation>Antarès </appellation>
+                <luminosite>75900</luminosite>
+            </etoile>
+            <etoile masse="8" rayon="5">
+                <appellation>Dschubba </appellation>
+                <luminosite>14000</luminosite>
+            </etoile>
+            <etoile masse="17" rayon="6.8">
+                <appellation>Girtab A </appellation>
+                <luminosite>6911</luminosite>
+            </etoile>
+            <etoile masse="12" rayon="5.8">
+                <appellation>Girtab B </appellation>
+                <luminosite>6911</luminosite>
+            </etoile>
+        </lesetoiles>
+    </constellation>
+</ciel> 
