@@ -1,10 +1,11 @@
 package lesIHM;
 
-import LesClasses.LeJeu;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import lesClasses.LeJeu;
 
 /**
  *
@@ -205,7 +206,6 @@ public class FenetreLancement extends javax.swing.JFrame {
             try {
                 LeJeu.afficherApprentissage();
             } catch (Exception e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }
@@ -218,7 +218,6 @@ public class FenetreLancement extends javax.swing.JFrame {
             try {
                 LeJeu.afficherJeu();
             } catch (Exception e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }

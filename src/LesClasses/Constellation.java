@@ -1,4 +1,4 @@
-package LesClasses;
+package lesClasses;
 
 import java.util.ArrayList;
 

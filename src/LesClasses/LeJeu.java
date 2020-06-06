@@ -1,4 +1,4 @@
-package LesClasses;
+package lesClasses;
 
 import java.awt.Color;
 import java.util.ArrayList;

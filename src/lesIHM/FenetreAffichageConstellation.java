@@ -5,12 +5,13 @@
  */
 package lesIHM;
 
-import LesClasses.Constellation;
-import LesClasses.LeJeu;
 import java.util.Timer;
 import java.util.TimerTask;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
+
+import lesClasses.Constellation;
+import lesClasses.LeJeu;
 
 /**
  *

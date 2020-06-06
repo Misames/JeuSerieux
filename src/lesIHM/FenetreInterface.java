@@ -1,12 +1,12 @@
 package lesIHM;
 
 import java.awt.Container;
+
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-import static javax.swing.WindowConstants.DISPOSE_ON_CLOSE;
 
 /**
  *
@@ -142,7 +142,6 @@ public class FenetreInterface extends javax.swing.JFrame {
                         Thread.sleep(1000);
                         laNvFenetre.dispose();
                     } catch (Exception e) {
-                        // TODO Auto-generated catch block
                         e.printStackTrace();
                     }
                 }

@@ -1,4 +1,4 @@
-package LesClasses;
+package lesClasses;
 
 /**
  * <p>

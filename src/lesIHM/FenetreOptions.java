@@ -5,13 +5,14 @@
  */
 package lesIHM;
 
-import LesClasses.LeJeu;
 import java.awt.Color;
 import java.util.Timer;
 import java.util.TimerTask;
 import javax.swing.JCheckBox;
 import javax.swing.JColorChooser;
 import javax.swing.JSlider;
+
+import lesClasses.LeJeu;
 
 /**
  *
