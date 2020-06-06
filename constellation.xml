@@ -2,7 +2,7 @@
 <ciel>
     <constellation id="1" saisonObservation="printemps">
         <nom>Lion</nom>
-        <image>lion.gif</image>
+        <image>./src/img/lion.gif</image>
         <lesetoiles>
             <etoile masse="2.3" rayon="3.6"  > 
                 <appellation>Denebola </appellation>
@@ -12,11 +12,11 @@
                 <appellation>Zosma </appellation>
                 <luminosite>23</luminosite>
             </etoile>
-            <etoile masse="2.9" rayon="4.3"  > 
+            <etoile masse="2.9" rayon="4.3">
                 <appellation>Chertan </appellation>
                 <luminosite>120</luminosite>
             </etoile>
-            <etoile masse="3.5" rayon="3.15"> 
+            <etoile masse="3.5" rayon="3.15">
                 <appellation>Regulus </appellation>
                 <luminosite>150</luminosite>
             </etoile>
@@ -24,7 +24,7 @@
     </constellation>
     <constellation id="2" saisonObservation="hiver"  >
         <nom>Gemeaux</nom>
-        <image>gemeaux.gif</image>
+        <image>./src/img/gemeaux.gif</image>
         <lesetoiles>
             <etoile masse="1.86" rayon="8.8"  > 
                 <appellation>Pollux </appellation>
@@ -46,7 +46,7 @@
     </constellation>
     <constellation id="3" saisonObservation="hiver">
         <nom>Cassiopee</nom>
-        <image>cassiopee.jpg</image>
+        <image>./src/img/cassiopee.jpg</image>
         <lesetoiles>
             <etoile masse="18" rayon="43">
                 <appellation>Alpha Cassiopeiae </appellation>
@@ -68,7 +68,7 @@
     </constellation>
     <constellation id="4" saisonObservation="hiver">
         <nom>Grande Ourse</nom>
-        <image>grande-ourse.jpg</image>
+        <image>./src/img/grande-ourse.jpg</image>
         <lesetoiles>
             <etoile masse="3" rayon="3.7">
                 <appellation>Alioth </appellation>
@@ -90,7 +90,7 @@
     </constellation>
     <constellation id="5" saisonObservation="hiver">
         <nom>Orion</nom>
-        <image>orion.png</image>
+        <image>./src/img/orion.png</image>
         <lesetoiles>
             <etoile masse="21.3" rayon="78.9">
                 <appellation>Rigel </appellation>
@@ -112,7 +112,7 @@
     </constellation>
     <constellation id="6" saisonObservation="hiver">
         <nom>Scorpion</nom>
-        <image>scorpion.jpg</image>
+        <image>./src/img/scorpion.jpg</image>
         <lesetoiles>
             <etoile masse="12" rayon="800">
                 <appellation>Antarès </appellation>

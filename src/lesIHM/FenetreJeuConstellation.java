@@ -69,7 +69,7 @@ public class FenetreJeuConstellation extends javax.swing.JFrame {
 
     private void setComponent(Constellation maConstel) {
         labNomConstellation.setText(maConstel.getleNom());
-        Icon img = new ImageIcon("SE" + maConstel.getlImage());
+        Icon img = new ImageIcon(/*"SE" + */maConstel.getlImage()); // rajouter SE pour afficher les constallation avec me nom des étoiles
         labImage.setIcon(img);
         jButton1.setText(maConstel.getLaListeEtoiles().get(0).getAppellation());
         jButton2.setText(maConstel.getLaListeEtoiles().get(1).getAppellation());
