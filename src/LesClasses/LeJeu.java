@@ -34,8 +34,7 @@ import org.jdom2.input.SAXBuilder;
 public class LeJeu {
 
     /**
-     * showFPS : indique si l'utilisateur souhaite afficher les images par
-     * secondes
+     * showFPS : indique si l'utilisateur souhaite afficher les images par secondes
      *
      * @see LeJeu#isShowFPS()
      * @see LeJeu#setShowFPS(boolean)
@@ -48,8 +47,7 @@ public class LeJeu {
     private static short framesPerSeconds = 0;
 
     /**
-     * lesConstellations : liste des constellations contenues dans le fichier
-     * XML
+     * lesConstellations : liste des constellations contenues dans le fichier XML
      *
      * @see LeJeu#getLesConstellations()
      */
@@ -154,7 +152,7 @@ public class LeJeu {
      * Accesseur en modification de la donnée privée seconds
      *
      * @param seconds le nouveau nombre de secondes de réflexion pour chaque
-     * question
+     *                question
      */
     public static void setSeconds(int seconds) {
         LeJeu.seconds = seconds;
@@ -164,7 +162,7 @@ public class LeJeu {
      * Accesseur en consultation de la donnée privée showFPS
      *
      * @return showFPS - est-ce que l'utilisateur veut afficher les images par
-     * secondes ?
+     *         secondes ?
      */
     public static boolean isShowFPS() {
         return showFPS;
@@ -173,20 +171,18 @@ public class LeJeu {
     /**
      * Accesseur en modification de la donnée privée showFPS
      *
-     * @param showFPS indique si l'utilisateur veut afficher le nombre d'images
-     * par secondes
+     * @param showFPS indique si l'utilisateur veut afficher le nombre d'images par
+     *                secondes
      */
     public static void setShowFPS(boolean showFPS) {
         LeJeu.showFPS = showFPS;
     }
 
     /**
-     * Parcours la liste de toutes les constellations et cherchent des étoiles
-     * au hasard afin de les affecter comme mauvaise réponse dans les
-     * constellations.
+     * Parcours la liste de toutes les constellations et cherchent des étoiles au
+     * hasard afin de les affecter comme mauvaise réponse dans les constellations.
      *
-     * @return la liste des étoiles qui vont être affectées comme mauvaise
-     * réponses
+     * @return la liste des étoiles qui vont être affectées comme mauvaise réponses
      */
     private static ArrayList<Etoile> rechercherMauvaisesReponses() {
         ArrayList<Etoile> lesMauvaisesRep = new ArrayList<Etoile>();
@@ -231,10 +227,10 @@ public class LeJeu {
     }
 
     /**
-     * Affiche des fenêtres affichant les informations de chaque constellation
-     * les unes à la suite des autres. La durée d'affichage de chaque fenêtre
-     * est donnée par la donnée privée seconds.Elle renvoie une erreur une
-     * exception s'l y a un problème.
+     * Affiche des fenêtres affichant les informations de chaque constellation les
+     * unes à la suite des autres. La durée d'affichage de chaque fenêtre est donnée
+     * par la donnée privée seconds.Elle renvoie une erreur une exception s'l y a un
+     * problème.
      *
      * @throws Exception exception indiquant qu'il y a eu un problème
      */
@@ -255,17 +251,16 @@ public class LeJeu {
                     }
                 }
             }
-        }
-        );
+        });
         nouveauFilExecution.start();
     }
 
     /**
-     * Affiche des fenêtres affichant les informations de chaque constellation
-     * les unes à la suite des autres. Chaque fenêtre laisse l'utilisateur
-     * cliquer sur ce qu'il pensent être la mauvaise réponse.La durée
-     * d'affichage de chaque fenêtre est donnée par la donnée privée
-     * seconds.Elle renvoie une erreur une exception s'l y a un problème.
+     * Affiche des fenêtres affichant les informations de chaque constellation les
+     * unes à la suite des autres. Chaque fenêtre laisse l'utilisateur cliquer sur
+     * ce qu'il pensent être la mauvaise réponse.La durée d'affichage de chaque
+     * fenêtre est donnée par la donnée privée seconds.Elle renvoie une erreur une
+     * exception s'l y a un problème.
      *
      * @throws Exception exception indiquant qu'il y a eu un problème
      */
@@ -290,15 +285,14 @@ public class LeJeu {
 
                 } while (i < lesConstellations.size() && ok);
             }
-        }
-        );
+        });
         nouveauFilExecution.start();
     }
 
     /**
-     * Parse le fichier constellation.xml pour stocker les données dans des
-     * objets des classes Constellation et Etoile. Renvoie une exception s'il y
-     * a une erreur
+     * Parse le fichier constellation.xml pour stocker les données dans des objets
+     * des classes Constellation et Etoile. Renvoie une exception s'il y a une
+     * erreur
      *
      * @throws java.lang.Exception exception indiquant qu'il y a eu un problème
      * @see Etoile
@@ -337,8 +331,9 @@ public class LeJeu {
             imageConstell = leNoeudConstellation.getChild("image").getText();
             saisonConstell = leNoeudConstellation.getAttribute("saisonObservation").getValue();
 
-            //xxxxx Etoiles xxxxx
-            // System.out.println("Constellation n°" + idConstell + " Nom : " + nomConstell + " Etoiles :");
+            // xxxxx Etoiles xxxxx
+            // System.out.println("Constellation n°" + idConstell + " Nom : " + nomConstell
+            // + " Etoiles :");
             lesNoeudsEtoiles = leNoeudConstellation.getChild("lesetoiles").getChildren("etoile");
             j = lesNoeudsEtoiles.iterator();
 
@@ -365,17 +360,17 @@ public class LeJeu {
                 @Override
                 public void run() {
                     if (isShowFPS()) {
-                        //get the current time  
+                        // get the current time
                         endTime = (int) System.currentTimeMillis();
-                        //the difference between start and end times  
+                        // the difference between start and end times
                         frameTimes += endTime - startTime;
-                        //count one frame  
+                        // count one frame
                         frames++;
-                        //if the difference is greater than 1 second (or 1000ms) post the results  
+                        // if the difference is greater than 1 second (or 1000ms) post the results
                         if (frameTimes >= 1000) {
-                            //post results at the console
+                            // post results at the console
                             framesPerSeconds = frames;
-                            //reset time differences and number of counted frames  
+                            // reset time differences and number of counted frames
                             frames = 0;
                             frameTimes = 0;
                             startTime = (int) System.currentTimeMillis();
@@ -387,8 +382,8 @@ public class LeJeu {
     }
 
     /**
-     * Affiche le nombre d'images par secondes dans le titre de la fenêtre
-     * passée en paramètre sous la forme "Titre - XX ips"
+     * Affiche le nombre d'images par secondes dans le titre de la fenêtre passée en
+     * paramètre sous la forme "Titre - XX ips"
      *
      * @param frame fenêtre où il faut afficher le nombre d'images par secondes
      * @param title titre par défaut de la fenêtre
