@@ -5,7 +5,7 @@ import java.util.TimerTask;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import lesClasses.LeJeu;
+import LesClasses.LeJeu;
 
 /**
  *

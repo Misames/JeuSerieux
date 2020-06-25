@@ -12,7 +12,7 @@ import javax.swing.JCheckBox;
 import javax.swing.JColorChooser;
 import javax.swing.JSlider;
 
-import lesClasses.LeJeu;
+import LesClasses.LeJeu;
 
 /**
  *

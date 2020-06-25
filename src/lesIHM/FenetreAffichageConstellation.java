@@ -10,8 +10,8 @@ import java.util.TimerTask;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 
-import lesClasses.Constellation;
-import lesClasses.LeJeu;
+import LesClasses.Constellation;
+import LesClasses.LeJeu;
 
 /**
  *

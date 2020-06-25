@@ -10,8 +10,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
 
-import lesClasses.Constellation;
-import lesClasses.LeJeu;
+import LesClasses.Constellation;
+import LesClasses.LeJeu;
 
 import java.util.Timer;
 import java.util.TimerTask;
